@@ -1,0 +1,6 @@
+{
+    "API_KEY": "887edb8c-ea0d-4e62-9726-f1e8d18587a3",
+    "WEBHOOK_SECRET": "83957786-cb5d-4263-8da8-a1bbab849b4d",
+    "PORT": 8000,
+    "REQUEST_TIMEOUT": 3000
+}
