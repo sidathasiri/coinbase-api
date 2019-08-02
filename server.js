@@ -31,11 +31,11 @@ app.use((req, res, next) => {
 const rawBody = (req, res, next) => {
   req.setEncoding("utf8");
   var data = "";
-  req.on("data", function(chunk) {
+  req.on("data", chunk => {
     data += chunk;
   });
 
-  req.on("end", function() {
+  req.on("end", () => {
     req.rawBody = data;
     next();
   });
